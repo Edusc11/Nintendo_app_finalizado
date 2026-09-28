@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Cor de fundo do componente -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Configuração da Borda: width é a espessura e color é a cor da borda -->
+    <stroke
+        android:width="2dp"
+        android:color="#D50D1E" />
+
+    <!-- Arredondamento dos cantos. Use um valor alto (ex: 99dp) para formato de pílula/círculo -->
+    <corners android:radius="20dp" />
+
+</shape>
